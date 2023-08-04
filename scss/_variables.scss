@@ -1,0 +1,32 @@
+@font-face {
+  font-family: Geometria;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../assets/fonts/Geometria.eot);
+  src: url(../assets/fonts/Geometria.eot?#iefix) format('embedded-opentype'),
+    url(../assets/fonts/Geometria.woff) format('woff'),
+    url(../assets/fonts/Geometria.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: Geometria;
+  font-style: normal;
+  font-weight: 700;
+  src: url(../assets/fonts/Geometria-Bold.eot);
+  src: url(../assets/fonts/Geometria-Bold.eot?#iefix)
+      format('embedded-opentype'),
+    url(../assets/fonts/Geometria-Bold.woff) format('woff'),
+    url(../assets/fonts/Geometria-Bold.ttf) format('truetype');
+}
+
+$black-text: #000000;
+$primary-text: #1e1e1e;
+$white-text: #ffffff;
+$white-bg: #ffffff;
+$black-bg: #000000;
+$primary-yellow: #ffd42f;
+$hover-primary-yellow: #f5cb00;
+
+$lg: 1400px;
+$md: 992px;
+$sm: 400px;

@@ -1,0 +1,46 @@
+.checkroom {
+  &__inner {
+    display: flex;
+    align-items: center;
+    gap: 20px 50px;
+  }
+  &__info {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 387px;
+    flex-shrink: 0;
+  }
+  &__title {
+    &-subtitle {
+      margin-bottom: 30px;
+    }
+  }
+  &__list {
+    list-style-type: none;
+    margin-bottom: 30px;
+    &_mg {
+      margin-left: 0;
+    }
+  }
+
+}
+
+@include for-tablet {
+
+}
+
+
+@media screen and (max-width: 750px) {
+    .checkroom {
+      &__inner {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items:flex-start
+      }
+      &__info {
+        width: 100%
+      }
+    }
+}

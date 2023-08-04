@@ -1,0 +1,42 @@
+.newspaper {
+  &__title {
+    &-small {
+      &-bottom {
+        margin-bottom: 20px;
+      }
+    }
+  }
+  &__link {
+    display: inline-block;
+    border-bottom: 1px solid $black-text;
+    margin-bottom: 30px;
+  }
+  &__service-package {
+    gap: 50px;
+    row-gap: 25px;
+    &__item {
+      justify-content: center;
+    }
+  }
+  &__example {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    &-block {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      &__img {
+        margin-bottom: 10px;
+      }
+      &__text {
+        max-width: 120px;
+      }
+    }
+  }
+  &__info-inner {
+    display: flex;
+    flex-direction: column;
+  }
+}

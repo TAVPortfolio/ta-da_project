@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TA-DA! - розміщення реклами</title>
+  <link rel="icon" href="assets/images/favicon.ico">
+  <link rel="stylesheet" href="styles/normalize.min.css">
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+  <div id="top"></div>
+  <header class="header">
+    <div class="header__inner">
+      <div class="container">
+        <button class="header__burger">
+          <span class="header__burger-item"></span>
+        </button>
+        <div class="header__bg"></div>
+        <div class="header__navbar">
+          <a class="header__logo" href="#top">
+            <img class="header__logo-img" alt="TA-DA!" src="assets/images/logo.svg">
+          </a>
+          <nav class="header__navbar-nav">
+            <a class="header__navbar-nav__link" href="#about">Про нас</a>
+            <a class="header__navbar-nav__link" href="#services">Наші послуги</a>
+            <a class="header__navbar-nav__link" href="#contacts">Контакти</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="hero">
+      <div class="hero__black-filter">
+        <h1 class="hero__title">Запустіть успішну рекламу в супермаркетах TA‑DA!</h1>
+        <a class="hero__btn btn package-btn" href="#form">Обрати пакет</a>
+      </div>
+    </section>
+    <section id="about" class="about">
+      <div class="container">
+        <div class="about__inner">
+          <div class="about__description">
+            <h3 class="about__title section-title">Про компанію</h3>
+            <p class="about__text">Компанія заснована в 2000 році. Як повноцінна
+              мережа
+              супермаркетів TA-DA!
+              працює з 2019 року. На 2023 рік нараховується
+              35&nbsp;супермаркетів в 21 містах України. Наші ціни, сервіс та асортимент подобаються 500&nbsp;000
+              покупцям
+              щомісяця.
+            </p>
+          </div>
+          <div class="about__numbers">
+            <div class="about__numbers-block">
+              <span class="about__numbers-block__number bold-text">35</span>
+              <span class="about__numbers-block__text ">супермаркетів</span>
+            </div>
+            <div class="about__numbers-block">
+              <span class="about__numbers-block__number bold-text">500&nbsp;000</span>
+              <span class="about__numbers-block__text ">клієнтів щомісяця</span>
+            </div>
+            <div class="about__numbers-block">
+              <span class="about__numbers-block__number bold-text">21</span>
+              <span class="about__numbers-block__text ">місто</span>
+            </div>
+            <div class="about__numbers-block">
+              <span class="about__numbers-block__number bold-text">18&nbsp;000&nbsp;м²</span>
+              <span class="about__numbers-block__text ">площа наших магазинів</span>
+            </div>
+          </div>
+        </div>
+        <div class="about__background">
+          <img src="./assets/images/about-img.png" alt="Області де ми працюємо" class="about__background-img">
+        </div>
+      </div>
+    </section>
+    <section id="services" class="radio">
+      <div class="container">
+        <div class="radio__inner">
+          <h3 class="radio__title section-title">Реклама на внутрішньому радіо</h3>
+          <ul class="radio__list">
+            <li class="radio__list-item ">Вартість розміщення 0,50 грн/1 с</li>
+            <li class="radio__list-item ">Реклама виходить кожні 30 хвилин</li>
+          </ul>
+          <div class="service-package radio__service-package">
+            <div class="service-package__item">
+              <h5 class="service-package__item-title bold-text">Стандарт<br>1 місяць</h5>
+              <div class="service-package__item-wrapper">
+                <span class="service-package__item-text bold-text">Ролик 10 с</span>
+                <span class="service-package__item-text ">6&nbsp;600 сек х 0,50 грн = <span class="bold-text">3&nbsp;300 грн</span></span>
+              </div>
+              <div class="service-package__item-wrapper">
+                <span class="service-package__item-text bold-text">Ролик 15 с</span>
+                <span class="service-package__item-text ">9&nbsp;900 сек х 0,50 грн = <span class="bold-text">4&nbsp;950 грн</span></span>
+              </div>
+              <a class="radio__btn btn package-btn" href="#form" data-package="Стандарт 1 місяць" data-value="Реклама на внутрішньому радіо">Обрати пакет</a>
+            </div>
+            <div class="service-package__item">
+              <h5 class="service-package__item-title bold-text">Преміум<br>3 місяці</h5>
+              <div class="service-package__item-wrapper service-package__item-wrapper_width">
+                <span class="service-package__item-text bold-text">Ролик 10 с</span>
+                <span class="service-package__item-text ">19&nbsp;800 сек х 0,50 грн = <span class="strike">9&nbsp;900</span>
+                  <span class="bold-text">8&nbsp;000&nbsp;грн</span></span>
+              </div>
+              <div class="service-package__item-wrapper service-package__item-wrapper_width">
+                <span class="service-package__item-text bold-text">Ролик 15 с</span>
+                <span class="service-package__item-text ">29&nbsp;700 сек х 0,50 грн = <span class="strike">14&nbsp;850</span>
+                  <span class="bold-text">12&nbsp;000&nbsp;грн</span></span>
+              </div>
+              <a class="radio__btn btn package-btn" href="#form" data-package="Преміум 3 місяці" data-value="Реклама на внутрішньому радіо">Обрати пакет</a>
+            </div>
+          </div>
+          <div class="radio__bottom">
+            <div class="radio__bottom-info">
+              <h4 class="radio__title-small bold-text">Технічні вимоги до ролика:</h4>
+              <ul class="radio__list radio__list-bottom">
+                <li class="radio__list-item ">формат mp3</li>
+                <li class="radio__list-item ">максимальна тривалість до 30 с</li>
+                <li class="radio__list-item ">озвучування ролику українською мовою</li>
+                <li class="radio__list-item ">вимова диктора чітка та зрозуміла</li>
+              </ul>
+            </div>
+            <div class="radio__bottom-image">
+              <img class="radio__bottom-image-bonus" src="./assets/images/radio-bonus.svg" alt="Бонус">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="cashier">
+      <div class="container">
+        <div class="cashier__inner">
+          <h3 class="cashier__title section-title">Розміщення реклами на екранах кас та прайс-чекерах</h3>
+          <h4 class="cashier__title-small bold-text">Кількість в мережі супермаркетів:</h4>
+          <ul class="cashier__list">
+            <li class="cashier__list-item ">Прайс чекери - 107 од.</li>
+            <li class="cashier__list-item ">Каси - 112 од</li>
+          </ul>
+          <div class="service-package cashier__service-package">
+            <div class="service-package__item">
+              <h5 class="service-package__item-title bold-text">Стандарт</h5>
+              <div class="cashier__service-package__item-wrapper service-package__item-wrapper">
+                <span class="service-package__item-text bold-text">Прайс-чекери</span>
+                <span class="service-package__item-text ">3 000 грн/міс.</span>
+                <span class="service-package__item-text item-gap-or bold-text">або</span>
+                <span class="service-package__item-text bold-text">Каси</span>
+                <span class="service-package__item-text ">2 000 грн/міс.</span>
+              </div>
+              <a class="cashier__btn btn package-btn" href="#form" data-package="Стандарт" data-value="Розміщення реклами на екранах кас та прайс-чекерах">Обрати пакет</a>
+            </div>
+            <div class="service-package__item">
+              <h5 class="service-package__item-title bold-text">Преміум</h5>
+              <div class="cashier__service-package__item-wrapper  service-package__item-wrapper">
+                <span class="service-package__item-text bold-text">Прайс-чекери+Каси</span>
+                <span class="service-package__item-text cashier__item-gap__large ">4 500 грн/міс.</span>
+                <span class="service-package__item-text ">Економія
+                  <span class="red-text bold-text">500 грн/міс.</span></span>
+              </div>
+              <a class="cashier__btn btn package-btn" href="#form" data-package="Преміум" data-value="Розміщення реклами на екранах кас та прайс-чекерах">Обрати пакет</a>
+            </div>
+          </div>
+          <ul class="cashier__list cashier__list-bottom">
+            <li class="cashier__list-item">Рекламні макети розробляються відділом маркетингу
+              мережі супермаркетів TA-DA! і&nbsp;узгоджуються з замовником</li>
+            <li class="cashier__list-item">Вартість вказана за місяць з&nbsp;охопленням всієї мережі
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="checkroom">
+      <div class="container">
+        <div class="checkroom__inner">
+          <div class="checkroom__info">
+            <h3 class="checkroom__title section-title">Реклама на камерах схову</h3>
+            <h4 class="checkroom__title-small bold-text">Ціна за розміщення одного рекламного макету&nbsp;А5 на місяць:</h4>
+            <span class="checkroom__title-subtitle">(поверхи камер схову вказані від низу до верху)</span>
+            <ul class="checkroom__list checkroom__list_mg">
+              <li class="checkroom__list-item list-item">1 поверх — 50 грн</li>
+              <li class="checkroom__list-item list-item">2 поверх — 100 грн</li>
+              <li class="checkroom__list-item list-item">3 поверх — 200 грн</li>
+              <li class="checkroom__list-item list-item">4 поверх — 150 грн</li>
+            </ul>
+            <a class="checkroom__btn btn package-btn" href="#form" data-package="без пакету" data-value="Реклама на камерах схову">Обрати пакет</a>
+          </div>
+          <div class="checkroom__background">
+            <img class="checkroom__background-img img" src="./assets/images/checkroom-img.png" alt="камера схову">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="newspaper">
+      <div class="container">
+        <div class="newspaper__inner">
+          <h3 class="newspaper__title section-title">Реклама на щомісячній газеті</h3>
+          <a class="newspaper__link" href="https://ta-da.ua/journal" target="_blank">
+            <h4 class="newspaper__title-small bold-text">Приклад щомісячної газети</h4>
+          </a>
+          <div class="service-package newspaper__service-package">
+            <div class="service-package__item newspaper__service-package__item">
+              <h5 class="service-package__item-title bold-text">Стандарт</h5>
+              <div class="newspaper__service-package__item-wrapper newspaper__info-inner service-package__item-wrapper">
+                <span class="service-package__item-text ">Ширина 14 см</span>
+                <span class="service-package__item-text gap-large">Висота 6,5
+                  см</span>
+                <span class="service-package__item-text bold-text">1 300 грн</span>
+              </div>
+              <a class="newspaper__btn btn package-btn" href="#form" data-package="Стандарт" data-value="Реклама на щомісячній газеті">Обрати пакет</a>
+            </div>
+            <div class="service-package__item newspaper__service-package__item">
+              <h5 class="service-package__item-title bold-text">Преміум</h5>
+              <div class="newspaper__service-package__item-wrapper newspaper__info-inner service-package__item-wrapper">
+                <span class="service-package__item-text ">Ширина 21 см</span>
+                <span class="service-package__item-text gap-large">Висота 7,5
+                  см</span>
+                <span class="service-package__item-text bold-text">1 800 грн</span>
+              </div>
+              <a class="newspaper__btn btn package-btn" href="#form" data-package="Преміум" data-value="Реклама на щомісячній газеті" data-value="Реклама на щомісячній газеті">Обрати пакет</a>
+            </div>
+          </div>
+          <h4 class="newspaper__title-small newspaper__title-small-bottom bold-text">Приклад розміщення реклами на
+            щомісячній газеті:</h4>
+          <div class="newspaper__example">
+            <div class="newspaper__example-block">
+              <img src="./assets/images/newspaper-example1.png" alt="газета з рекламою" class="newspaper__example-block__img img">
+              <div class="newspaper__info-inner">
+                <span class="newspaper__example-block__text ">Ширина 21 см</span>
+                <span class="newspaper__example-block__text gap-large">Висота 7,5
+                  см</span>
+                <span class="newspaper__example-block__text bold-text">1 800 грн</span>
+              </div>
+            </div>
+            <div class="newspaper__example-block">
+              <img src="./assets/images/newspaper-example2.png" alt="газета з рекламою" class="newspaper__example-block__img img">
+              <div class="newspaper__info-inner">
+                <span class="newspaper__example-block__text ">Ширина 21 см</span>
+                <span class="newspaper__example-block__text gap-large">Висота 7,5
+                  см</span>
+                <span class="newspaper__example-block__text bold-text">1 800 грн</span>
+              </div>
+            </div>
+            <div class="newspaper__example-block">
+              <img src="./assets/images/newspaper-example3.png" alt="газета з рекламою" class="newspaper__example-block__img img">
+              <div class="newspaper__info-inner">
+                <span class="newspaper__example-block__text ">Ширина 14 см</span>
+                <span class="newspaper__example-block__text gap-large">Висота 6,5
+                  см</span>
+                <span class="newspaper__example-block__text  bold-text">1 300 грн</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="social">
+      <div class="container">
+        <div class="social__inner">
+          <h3 class="social__title section-title">Реклама у соцмережах TA-DA!</h3>
+          <ul class="social__list">
+            <li class="social__list-item ">Оглядовий ролик до 20 секунд</li>
+            <li class="social__list-item ">Креативний макет від<br> SMM-спеціаліста</li>
+            <li class="social__list-item ">Пост в каруселі коштує 400 грн<br>(+50 грн за кожен
+              слайд:
+              максимум 10 слайдів)</li>
+          </ul>
+          <div class="service-package social__service-package">
+            <div class="service-package__item">
+              <h5 class="service-package__item-title bold-text">Instagram</h5>
+              <div class="social__service-package__item-wrapper social__info-inner service-package__item-wrapper">
+                <span class="service-package__item-text bold-text">Пост</span>
+                <ul class="social__service-package__list">
+                  <li class="social__list-item ">Фото+текст — 400 грн</li>
+                  <li class="social__list-item ">Відео — 1 000 грн</li>
+                </ul>
+                <span class="service-package__item-text bold-text">Історія</span>
+                <ul class="social__service-package__list">
+                  <li class="social__list-item  ">Фото — 300 грн </li>
+                  <li class="social__list-item  ">Відео — 600 грн</li>
+                </ul>
+                <span class="service-package__item-text item-gap-or bold-text">або</span>
+                <span class="service-package__item-text bold-text">Пакетне розміщення</span>
+                <span class="service-package__item-text social__info-inner__bottom ">Фото+текст — 600
+                  грн</span>
+                <span class="service-package__item-text social__info-inner__bottom ">Відео — 1 500
+                  грн</span>
+              </div>
+              <a class="social__btn btn package-btn" href="#form" data-package="Instagram" data-value="Реклама у соцмережах">Обрати пакет</a>
+            </div>
+            <div class="service-package__item">
+              <h5 class="service-package__item-title bold-text">Facebook</h5>
+              <div class="social__service-package__item-wrapper social__info-inner service-package__item-wrapper">
+                <span class="service-package__item-text bold-text">Пост</span>
+                <ul class="social__service-package__list">
+                  <li class="social__list-item ">Фото+текст — 400 грн</li>
+                  <li class="social__list-item ">Відео — 1 000 грн</li>
+                </ul>
+                <span class="service-package__item-text bold-text">Історія</span>
+                <ul class="social__service-package__list">
+                  <li class="social__list-item ">Фото — 300 грн </li>
+                  <li class="social__list-item ">Відео — 1000 грн</li>
+                </ul>
+                <span class="service-package__item-text item-gap-or bold-text">або</span>
+                <span class="service-package__item-text bold-text">Пакетне розміщення</span>
+                <span class="service-package__item-text social__info-inner__bottom ">
+                  Фото+текст — 600 грн</span>
+                <span class="service-package__item-text social__info-inner__bottom ">Відео — 1 500
+                  грн</span>
+              </div>
+              <a class="social__btn btn package-btn" href="#form" data-package="Facebook" data-value="Реклама у соцмережах">Обрати пакет</a>
+            </div>
+            <div class="service-package__item">
+              <h5 class="service-package__item-title bold-text">Instagram + Facebook</h5>
+              <div class="social__service-package__item-wrapper social__info-inner service-package__item-wrapper">
+                <span class="service-package__item-text bold-text">Фото</span>
+                <ul class="social__service-package__list">
+                  <li class="social__list-item  ">Пост + історія — 1 000 грн</li>
+                </ul>
+                <span class="service-package__item-text item-gap-or bold-text">або</span>
+                <span class="service-package__item-text bold-text">Відео</span>
+                <ul class="social__list">
+                  <li class="social__list-item ">Пост + історія — 2 000 грн</li>
+                </ul>
+              </div>
+              <a class="social__btn btn package-btn" href="#form" data-package="Instagram + Facebook" data-value="Реклама у соцмережах">Обрати пакет</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="lottery">
+      <div class="container">
+        <div class="lottery__inner">
+          <h3 class="lottery__title section-title">Проведення розіграшів у соцмережах</h3>
+          <h4 class="lottery__title bold-text">Для участі в розіграші потрібно:</h4>
+          <ul class="lottery__list-main">
+            <li class="lottery__list-main__item  ">Надати подарунок, який є в асортименті наших
+              супермаркетів на суму від 500 грн</li>
+            <li class="lottery__list-main__item  ">Обрати бажаний пакет просування</li>
+          </ul>
+          <div class="service-package lottery__service-package">
+            <div class="service-package__item">
+              <h5 class="service-package__item-title bold-text">Стандарт</h5>
+              <div class="lottery__service-package__item-wrapper  service-package__item-wrapper">
+                <ol class="lottery__list">
+                  <li class="lottery__list-item  ">Створення плану інтеграції <br>Вашого бренду в
+                    наші
+                    соцмережі</li>
+                  <li class="lottery__list-item  ">Створення оглядового відео<br>для проведення
+                    розіграшу
+                  </li>
+                  <li class="lottery__list-item  ">Підготовка компанії з проведення розіграшу
+                    (копірайтинг,
+                    постинг
+                    <br>згідно плану, розміщення реклами бренду в наших
+                    аккаунтах TA-DA!)
+                  </li>
+                  <li class="lottery__list-item ">Звіт по проведенню розіграшу</li>
+                  <li class="lottery__list-item lottery__text-disable">Просування у соцмережах
+                    (targeting,&nbsp;розміщення
+                    <br>реклами в акаунтах
+                    в
+                    соцмережах трьох&nbsp;міст)
+                  </li>
+                  <li class="lottery__list-item lottery__text-disable">Звіт по реалізації рекламної компанії
+                  </li>
+                </ol>
+              </div>
+              <span class="service-package__item-text bold-text">2 400 грн</span>
+              <a class="lottery__btn btn package-btn" href="#form" data-package="Стандарт" data-value="Проведення розіграшів у соцмережах">Обрати пакет</a>
+            </div>
+            <div class="service-package__item">
+              <h5 class="service-package__item-title bold-text">Преміум</h5>
+              <div class="lottery__service-package__item-wrapper  service-package__item-wrapper">
+                <ol class="lottery__list">
+                  <li class="lottery__list-item  ">Створення плану інтеграції <br>Вашого бренду в
+                    наші
+                    соцмережі</li>
+                  <li class="lottery__list-item  ">Створення оглядового відео<br>для проведення
+                    розіграшу
+                  </li>
+                  <li class="lottery__list-item  ">Підготовка компанії з проведення розіграшу
+                    (копірайтинг,
+                    постинг
+                    <br>згідно плану, розміщення реклами бренду в наших
+                    аккаунтах TA-DA!)
+                  </li>
+                  <li class="lottery__list-item ">Звіт по проведенню розіграшу</li>
+                  <li class="lottery__list-item  ">Просування у соцмережах (targeting,&nbsp;розміщення
+                    <br>реклами в акаунтах
+                    в
+                    соцмережах трьох міст)
+                  </li>
+                  <li class="lottery__list-item  ">Звіт по реалізації рекламної компанії</li>
+                </ol>
+              </div>
+              <span class="service-package__item-text bold-text">від 3 500 грн</span>
+              <a class="lottery__btn btn package-btn" href="#form" data-package="Преміум" data-value="Проведення розіграшів у соцмережах">Обрати пакет</a>
+            </div>
+          </div>
+          <div class="lottery__bottom-image">
+            <img class="lottery__bottom-image-bonus" src="./assets/images/lottery-bonus.svg" alt="Бонус">
+          </div>
+          <h4 class="lottery__title-small bold-text">Результати останнього розіграшу:</h4>
+          <div class="lottery__result-wrapper">
+            <img class="lottery__result-wrapper__image img" src="./assets/images/lottery-result_1.png" alt="результати розіграшу">
+            <img class="lottery__result-wrapper__image img" src="./assets/images/lottery-result_2.png" alt="результати розіграшу">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="banner">
+      <div class="container">
+        <div class="banner__inner">
+          <h3 class="banner__title section-title">Розміщення реклами на банері</h3>
+          <div class="banner__description">
+            <span class="banner__description-text ">Розміщення реклами на банері на головній сторінці
+              сайту
+              та в мобільному
+              додатку.</span>
+            <div class="banner__list-wrapper">
+              <h4 class="banner__title bold-text">Переваги:</h4>
+              <ul class="banner__list">
+                <li class="banner__list-item">максимальна частота показу</li>
+                <li class="banner__list-item">в один клік перехід на ваші акційні товари</li>
+              </ul>
+            </div>
+          </div>
+          <div class="service-package banner__service-package">
+            <div class="service-package__item banner__service-package__item">
+              <h5 class="service-package__item-title bold-text">Базовий</h5>
+              <div class="banner__service-package__item-wrapper banner__info-inner service-package__item-wrapper">
+                <span class="service-package__item-text gap-large ">7 днів</span>
+                <span class="service-package__item-text bold-text">2 500 грн</span>
+              </div>
+              <a class="banner__btn btn package-btn" href="#form" data-package="Базовий" data-value="Розміщення реклами на банері">Обрати пакет</a>
+            </div>
+            <div class="service-package__item banner__service-package__item">
+              <h5 class="service-package__item-title bold-text">Стандарт</h5>
+              <div class="banner__service-package__item-wrapper banner__info-inner service-package__item-wrapper">
+                <span class="service-package__item-text gap-large ">30 днів</span>
+                <span class="service-package__item-text bold-text">5 500 грн</span>
+              </div>
+              <a class="banner__btn btn package-btn" href="#form" data-package="Стандарт" data-value="Розміщення реклами на банері">Обрати пакет</a>
+            </div>
+          </div>
+          <h4 class="banner__title-small bold-text">Приклад розміщення банеру</h4>
+          <div class="banner__example">
+            <a data-fslightbox href="./assets/images/banner-desktop.png"><img src="./assets/images/banner-desktop.png" alt="банер реклами на компютері" class="banner__example-desktop img"></a>
+            <img src="./assets/images/banner-mobile.png" alt="банер реклами на мобільному" class="banner__example-mobile img">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="connection">
+      <div class="container">
+        <div class="connection__inner">
+          <h3 class="connection__title section-title">Допоможемо у виборі найкращого варіанту</h3>
+          <span class="connection__description-text">Залишай заявку та отримай консультацію по співпраці з
+            нами.</span>
+          <div class="connection__content" id="form">
+            <form class="connection__form">
+              <label class="connection__label" for="name">Ім'я</label>
+              <input class="connection__input" type="text" id="name" name="name" required>
+              <br>
+              <label class="connection__label" for="phone">Телефон</label>
+              <input class="connection__input" type="tel" id="phone" name="phone" maxlength="10" required>
+              <br>
+              <span class="connection__label">Тип реклами</span>
+              <div class="connection__custom-select" tabindex="0" data-value="не обрано">
+                <span class="connection__selected-option connection__prev">
+                  Не вибрано
+                </span>
+                <ul class="connection__options-list">
+                  <li class="connection__option list-item" data-value="Реклама на внутрішньому радіо">
+                    Реклама на внутрішньому радіо</li>
+                  <li class="connection__option list-item" data-value="Розміщення реклами на екранах кас та прайс-чекерах">
+                    Розміщення реклами на екранах кас та прайс-чекерах</li>
+                  <li class="connection__option list-item" data-value="Реклама на камерах схову">
+                    Реклама на камерах схову</li>
+                  <li class="connection__option list-item" data-value="Реклама на щомісячній газеті">
+                    Реклама на щомісячній газеті
+                  </li>
+                  <li class="connection__option list-item" data-value="Реклама у соцмережах">Реклама у соцмережах
+                  </li>
+                  <li class="connection__option list-item" data-value="Проведення розіграшів у соцмережах">
+                    Проведення розіграшів у соцмережах</li>
+                  <li class="connection__option list-item" data-value="Розміщення реклами на банері">
+                    Розміщення реклами на банері
+                  </li>
+                </ul>
+              </div>
+              <br>
+              <input type="hidden" id="package" name="package" value="не обрано">
+              <label class="connection__label" for="companyName">Назва компанії</label>
+              <input class="connection__input" type="text" id="companyName" name="companyName">
+              <br>
+              <label class="connection__label" for="businessArea">Сфера роботи</label>
+              <input class="connection__input" type="text" id="businessArea" name="businessArea">
+              <br>
+              <button class="connection__submit" id="formSubmit" type="submit">Замовити консультацію</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer id="contacts" class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-inner__contacts"><a class="footer-inner__contacts-phone" href="tel:0503087801">050 308 78
+            01</a>
+          <p>Графік роботи відділу реклами</p>
+          <p><b>Пн-нд</b> 8:00-17:00</p>
+        </div>
+        <div class="footer-inner__logo"><img src="./assets/images/white-logo.svg" alt="логотип ТА-ДА!"></div>
+        <div class="footer-inner__socials"><span>Слідкуй за нами:</span>
+          <div class="footer-inner__socials-items">
+            <a class="footer-inner__socials-items__link" href="http://www.instagram.com/tadaua/" target="_blank">
+              <img src="./assets/images/instagram.svg" alt="instagram">
+            </a>
+            <a class="footer-inner__socials-items__link" href="http://www.facebook.com/TaDaUa/" target="_blank">
+              <img src="./assets/images/facebook.svg" alt="facebook">
+            </a>
+            <a class="footer-inner__socials-items__link" href="https://www.youtube.com/c/tadaua?sub_confirmation=1" target="_blank">
+              <img src="./assets/images/youtube.svg" alt="youtube">
+            </a>
+            <a class="footer-inner__socials-items__link" href="https://www.tiktok.com/@tadaua?lang=uk...ype=webapp" target="_blank">
+              <img src="./assets/images/tik-tok.svg" alt="tik-tok">
+            </a>
+            <a class="footer-inner__socials-items__link" href="http://invite.viber.com/?g2=AQAPTM%2FYRDaso0kLa4KIRiQ7H%2FjnhBAmoTV%2Fuzbf2GhhbgxbAJ0AVzEF41RUYEwu" target="_blank">
+              <img src="./assets/images/viber.svg" alt="viber">
+            </a>
+            <a class="footer-inner__socials-items__link" href="https://t.me/tadaua" target="_blank">
+              <img src="./assets/images/telegram.svg" alt="telegram">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__copy">
+      <h2>Товари для дому. Щодня! Iнтернет-магазин TA•DA! ©2023</h2>
+    </div>
+  </footer>
+
+  <script src="scripts/fslightbox.js"></script>
+  <script defer src="/scripts/index.js"></script>
+</body>
+
+</html>

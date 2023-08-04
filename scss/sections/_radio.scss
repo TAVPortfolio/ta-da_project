@@ -1,0 +1,51 @@
+.radio {
+  &__title {
+    &-small {
+      margin: 0;
+    }
+  }
+  &__list {
+    margin-bottom: 30px;
+    &-bottom {
+      margin-bottom: 0;
+    }
+  }
+  &__service-package {
+    gap: 50px;
+    row-gap: 25px;
+  }
+}
+
+.service-package__item-wrapper_width {
+  align-items:center;
+}
+
+.radio__bottom {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap-reverse;
+      row-gap: 20px;
+  &-image {
+    max-width: 410px;
+    &-bonus {
+      width: 100%;
+    }
+  }
+}
+
+@include for-tablet {
+  .radio__bottom {
+
+    &-image{
+      margin: 0 auto;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  .radio__bottom {
+    justify-content: center;
+  }
+}
+
